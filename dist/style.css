@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Hubballi", cursive;
+}
+.container {
+  background: linear-gradient(236.85deg, black 27.26%, #3468a7 96.03%);
+  margin: 40px;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px 0px #0e1d2f;
+  color: #1c1c1c;
+  padding: 30px;
+  width: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+.profile {
+  display: flex;
+}
+.profile-photo {
+  height: 160px;
+  width: 158px;
+  left: 154px;
+  top: 79px;
+  border-radius: 460px;
+  box-shadow: 0px 4px 4px 0px white;
+}
+.title {
+  margin-left: 15px;
+}
+.title h1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: white;
+}
+.title h3 {
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+.theme button {
+  font-family: "Hubballi", cursive;
+  align-self: flex-end;
+  font-size: 16px;
+  font-weight: 540;
+  padding: 8px 16px;
+  background: linear-gradient(black, #836fff 96.03%);
+  border-radius: 100px;
+  border: 2px solid #041832;
+}
+.projects {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  max-height: 300px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 32px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.conquests {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  height: 300px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 32px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.title-project {
+  padding: 0px;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 3px;
+}
+.li-title {
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+  margin-top: 0px;
+}
+.white {
+  background: linear-gradient(236.85deg, white 27.26%, #3468a7 96.03%);
+}
+.white .theme button {
+  color: white;
+  border: 3px solid white;
+  background: linear-gradient(236.85deg, #836FFF.14%, #836fff 96.03%);
+}
+.white .title {
+  color: white;
+}
+.white .profile-photo {
+  box-shadow: 0px 4px 4px 0px white;
+}
+.white .projects {
+  background: linear-gradient(236.85deg, white 27.26%, #3468a7 96.03%);
+}
+.white .conquests {
+  background: linear-gradient(236.85deg, white 27.26%, #3468a7 96.03%);
+}
+.white .title-project {
+  color: black;
+}
+.white .li-title {
+  color: black;
+}
+.white .container {
+  background: linear-gradient(236.85deg, #836FFF.14%, white 96.03%);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #1c1c1c;
+  border: 1.8px solid #1c1c1c;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ecf4ff;
+}
+::-webkit-scrollbar-track {
+  background: #ecf4ff;
+  border-radius: 100px;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+  margin: 15px 0px;
+}
