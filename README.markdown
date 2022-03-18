@@ -1,5 +1,5 @@
 # Portfólio
-
-A Pen created on CodePen.io. Original URL: [https://codepen.io/lrd003/pen/abEdvOE](https://codepen.io/lrd003/pen/abEdvOE).
+----------------------------------------------------------------------------------------------
+Projeto Final realizado na imersão da Alura, na qual foi feito um portfólio com todos os projetos realizado nas aulas.
 
 
